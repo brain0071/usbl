@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <arg name="beacon_ID" default="3" />
+    <node pkg="usbl" type="usbl_node" name="usbl_node" output="screen">
+        <!-- <param name="beacon_ID" value="$(arg beacon_ID)" /> -->
+    </node>
+</launch>
